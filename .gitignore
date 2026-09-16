@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+index/*.npy
+index/*.csv
+data/
+!data/README.md
+node_modules/
+dist/
+build/
+*.log
