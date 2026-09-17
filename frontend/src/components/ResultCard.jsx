@@ -10,7 +10,7 @@ export default function ResultCard({ result }) {
   return (
     <div className="result-card glass-panel animate-fade-in">
       <div className="similarity-badge">
-        {(result.similarity_score * 100).toFixed(1)}% Match
+        Similarity: {result.similarity_score.toFixed(3)}
       </div>
       
       <div className="card-image-wrapper">

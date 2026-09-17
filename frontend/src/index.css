@@ -87,9 +87,15 @@ h1, h2, h3, h4, h5, h6 {
   gap: 2rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .main-content {
-    grid-template-columns: 350px 1fr;
+    grid-template-columns: 300px 350px 1fr;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .main-content {
+    grid-template-columns: 300px 1fr;
   }
 }
 
